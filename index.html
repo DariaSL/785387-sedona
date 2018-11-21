@@ -24,16 +24,24 @@
      <img src='img/welcome-sedona.svg' width='459' height='353' alt='Welcome to the gorgeous SEDONA Because the Grand Canyon sucks!'>
       <p class='discription'>Седона - небольшой городок в Аризоне, заслуживающий большего</p>
       <p class='advantages'>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-     <h2>Заинтерeсовались?</h2>
+    <h2>Заинтерeсовались?</h2>
   <p class='advantages'>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
    <p><input type='button' value='Поиск гостиниц в Седоне'></p>
-    <p class='hotels-search'>
+    <form action='hotels.HTML'>
+     <p class='hotels-search'> Поиск гостиницы в Седоне </p>
       <input type='date' id='check-in'><label for='check-in'>Дата заезда </label>
-      <input type='date' id='check-out'><label for='check-out'> Дата выезда </label>
-      <input type='' id='adults'><label for='adults'> Взрослые </label>
-      <input type='' id='children'><label for='children'> Дети </label>
-      <p><input type='button' value='Найти'></p>
-   </main>
+       <input type='date' id='check-out'><label for='check-out'> Дата выезда </label>
+        <p class='adults-quantity'> Взрослые </p>
+         <button type='button' data-spin='down'>-</button>
+          <input type='number' value='2' data-ruler='quantity'>
+         <button type='button' data-spin='up'>+</button>
+        <p class='children-quantity'> Дети </p>
+       <button type='button' data-spin='down'>-</button>
+      <input type='number' value='0' data-ruler='quantity'>
+     <button type='button' data-spin='up'>+</button>
+    <p><input type='button' value='Найти'></p>
+   </form>
+  </main>
    <footer class='main-footer'>
     <p class='hashtag'>#visitsedona</p>
      <ul class='contact-social-networks'>
