@@ -3,7 +3,7 @@
   <head>
     <meta charset='utf-8'>
     <title>HTML Academy: Седона</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet'>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -23,26 +23,27 @@
    </header>
   <body>
   <main class='container'>
-   <h1=class'visually-hidden'>Отели Седоны </h1>
-    <ul class='hotel-AMARA-discription'>
-     <li><img src='img/Amara-photo-view.jpg' width='135' height='90' alt='Amara Resort&SPA'></li>
-     <li> Amara Resort&SPA</li>
-     <li>Гостиница от 4000 Р.</li>
-     <li><button class='button' type='submit' name='Подробнее'>Подробнее</button></li>
-     <li><button class='button' type='submit' name='Забронировать'>Забронировать</button></li>
-     <li>
-      <div class="four-stars">
-			 <img src='img/star.jpg' alt='4 звезды'>
-			</div>
-    </li>
-    <li>Рейтинг:8.5</li>
+   <section class='hotels-description'>
+    <h1=class'visually-hidden'>Отели Седоны </h1>
+     <ul class='AMARA-discription'>
+      <li><img src='img/Amara-photo-view.jpg' width='135' height='90' alt='Amara Resort&SPA'></li>
+      <li> <a href='https://www.amara-resort.com/' class='Amara-website'>Amara Resort&SPA</a></li>
+      <li>Гостиница от 4000 Р.</li>
+      <li><button class='info-button' type='submit' name='Забронировать'>Подробнее</button></li>
+      <li><button class='book-button' type='submit' name='Забронировать'>Забронировать</button></li>
+      <li>
+       <div class="four-stars">
+			  <img src='img/star.jpg' alt='4 звезды'>
+			 </div>
+      </li>
+     <li>Рейтинг:8.5</li>
    </ul>
-   <ul class='hotel-Desert-discription'>
+   <ul class='Desert-discription'>
     <li><img src='img/Desert-photo-view.jpg' width='135' height='90' alt='Desert Quail INN'> </li>
-    <li> Desert Quail INN </li>
+    <li> <a href='https://www.DESERTINN.com/' class='Desert-website'> Desert Quail INN </a></li>
     <li>Мотель от 3000 Р.</li>
-    <li><button class='button' type='submit' name='Подробнее'>Подробнее</button></li>
-    <li><button class='button' type='submit' name='Забронировать'>Забронировать</button></li>
+    <li><button class='info-button' type='submit' name='Подробнее'>Подробнее</button></li>
+    <li><button class='book-button' type='submit' name='Забронировать'>Забронировать</button></li>
     <li>
       <div class="three-stars">
        <img src='img/star.jpg' alt='3 звезды'>
@@ -50,18 +51,19 @@
     </li>
     <li>Рейтинг:8.9</li>
    </ul>
-   <ul class='hotel-Villas-discription'>
+   <ul class='Villas-discription'>
     <li><img src='img/Villas-photo-view.jpg' width='135' height='90' alt='Villas at Poco Diablo'> </li>
-    <li> Villas at Poco Diablo </li>
+    <li> <a href='https://www.PocoDiablo.com/' class='Villas-website'>Villas at Poco Diablo </a></li>
     <li> Аппартаменты от 2000 Р.</li>
-    <li><button class='button' type='submit' name='Подробнее'>Подробнее</button></li>
-    <li><button class='button' type='submit' name='Забронировать'>Забронировать</button></li>
+    <li><button class='info-button' type='submit' name='Подробнее'>Подробнее</button></li>
+    <li><button class='book-button' type='submit' name='Забронировать'>Забронировать</button></li>
     <li>
       <div class="two-stars">
        <img src='img/star.jpg' alt='2 звезды'>
       </div>
     <li>Рейтинг:9.2</li>
    </ul>
+ </section>
   </main>
   <footer class='main-footer'>
    <p class='hashtag'>#visitsedona</p>
