@@ -115,13 +115,6 @@ form.hotels-search {
 }
 
 
-
-
-
-.hotels-description ul {
-  list-style: none;
-}
-
 .hotels-description a {
   color: #000000;
 }
@@ -132,10 +125,6 @@ form.hotels-search {
 .hotels-description a:active {
   color: rgba(0, 0, 0, 0.3);
 }
-
-
-
-
 
 .footer {
   color: #f2f2f2;
@@ -188,11 +177,4 @@ svg {
 
 .footer-logo:active svg path{
   fill: #bdbbbc;
-}
-
-p.creators {
-  font-size: 14px;
-  line-height: 26px;
-  color: #000000;
-  text-transform: none;
 }
