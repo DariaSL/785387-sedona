@@ -24,84 +24,99 @@ a {
   line-height: 26px;
   color: #000000;
   background-color: #ffffff;
-
-}
-.navigation_list{
-list-style: none;
 }
 
-.navigation_list a {
-  color: #000000;
-}
-.navigation_list a:hover,
-.navigation_list a:focus{
+.navigation-list a:hover,
+.navigation-list a:focus{
   color: #81b3d2
 }
-.navigation_list a:active {
+.navigation-list a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.discription {
+p.discription {
   font-size: 21px;
   line-height: 26px;
   color: #000000;
   font-weight: bold;
 }
-
 .advantages {
   font-size: 14px;
   line-height: 26px;
   color: #333333;
   font-weight: normal;
 }
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  font-weight: bold;
+}
+
+button.button-brown {
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #766357;
+  border: none;
+}
+button.button-brown:hover,
+button.button-brown:focus {
+  background-color: #604e43;
+}
+button.button-brown:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503e33;
+}
+
+button {
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #81b3d2;
+  border: none;
+}
+
+button:hover,
+button:focus {
+  background-color: #669ec0;
+}
+button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5496bd;
+}
+
 form.hotels-search {
-  background-color: #ffffff
+  background-color: #ffffff;
   font-size: 14px;
   line-height: 26px;
   color: #000000;
   font-weight: bold;
 }
 
-button.button {
-  font-size: 21px;
-  line-height: 26px;
-  color: #ffffff;
-  font-weight: bold;
-  text-align: center;
-  vertical-align: middle;
-
-  background-color: #766357;
-  border: none;
-}
-button.button:hover,
-button.button:focus {
-  background-color: #604e43;
-}
-button.button:active {
-  color: rgba(255, 255, 255, 0.3);
-  background-color: #503e33;
+.container-item input{
+  background: url(img/calendar.svg) no-repeat center right;
+  padding-left: auto;
+  background-color: #f2f2f2;
 }
 
-button.search-button {
-  font-size: 21px;
-  line-height: 26px;
-  color: #ffffff;
-  font-weight: bold;
-  text-align: center;
-  vertical-align: middle;
-
-  background-color: #81b3d2;
-  border: none;
+.container-item input:hover,
+.container-item input:focus{
+  background-color: #ebebeb;
+}
+.container-item input:active {
+    background-color: #ffffff;
 }
 
-button.search-button:hover,
-button.search-button:focus {
-  background-color: #669ec0;
-}
-button.search-button:active {
-  color: rgba(255, 255, 255, 0.3);
-  background-color: #5496bd;
-}
+
+
+
 
 .hotels-description ul {
   list-style: none;
@@ -118,40 +133,12 @@ button.search-button:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
-button.info-button {
-  font-size: 21px;
-  line-height: 26px;
-  color: #ffffff;
-  font-weight: bold;
-  text-align: center;
-  vertical-align: middle;
-
-  background-color: #81b3d2;
-  border: none;
-}
-
-button.info-button:hover,
-button.info-button:focus {
-  background-color: #669ec0;
-}
-button.info-button:active {
-  color: rgba(255, 255, 255, 0.3);
-  background-color: #5496bd;
-}
 
 
 
 
-
-
-
-
-
-
-
-.main-footer {
+.footer {
   color: #f2f2f2;
-
   background-color: #ffffff;
   background-position: 0 0;
   background-repeat: repeat;
@@ -163,36 +150,44 @@ button.info-button:active {
   color: #000000;
   text-transform: uppercase;
 }
-.contact-social-networks{
+.social-networks-list{
   list-style: none;
 }
 
-.contact-social-networks img {
+.social-networks-list img {
   list-style: none;
   color: #81b3d2;
   background-color: #81b3d2;
   }
 
-.contact-social-networks a:hover,
-.contact-social-networks a:focus {
+.social-networks-list  a:hover,
+.social-networks-list a:focus {
   background-color: #669ec0;
   text-decoration: none;
 }
-.contact-social-networks a:active {
+.social-networks-list  a:active {
   background-color: #5496bd;
 }
 
-.creators img {
+.creators {
+  font-size: 14px;
+  line-height: 26px;
   color: #000000;
-  background-color: #231f20;;
+  text-transform: none;
 }
-.creators img:hover,
-.creators img:focus {
-  background-color: #81b3d2;
 
+svg {
+  width: 115px;
+  height: 41px;
+  background-color: #ffffff;
 }
-.creators img:active {
-  background-color: #bdbbbc;
+.footer-logo:hover svg path,
+.footer-logo:focus svg path {
+  fill: #81b3d2;
+}
+
+.footer-logo:active svg path{
+  fill: #bdbbbc;
 }
 
 p.creators {
