@@ -32,47 +32,67 @@
     </header>
   <body>
   <main class='container'>
+   <section class='filters'>
+   </section>
+   <section class='sorting'>
+    <div class='sorting-list'>
+      <div class='sorting-list-item'>
+         <span class='sorting-results'> Найдено:3 </span>
+      </div>
+      <div class='sorting-list-item'>
+         <span class='sorting-type'> Сортировка </span>
+          <span>По цене</span>
+           <span>По типу</span>
+            <span>По рейтингу</span>
+      </div>
+      <div class='sorting-manage'>
+      </div>
+    </div>
+   </section>
    <section class='hotels-description'>
-    <h1=class'visually-hidden'>Отели Седоны </h1>
-     <ul class='AMARA-discription'>
-      <li><img src='img/Amara-photo-view.jpg' width='135' height='90' alt='Amara Resort&SPA'></li>
-      <li> <a href='https://www.amara-resort.com/' class='Amara-website'>Amara Resort&SPA</a></li>
-      <li>Гостиница от 4000 Р.</li>
-      <li><button class='info-button' type='submit' name='Забронировать'>Подробнее</button></li>
-      <li><button class='book-button' type='submit' name='Забронировать'>Забронировать</button></li>
-      <li>
-       <div class="four-stars">
-			  <img src='img/star.jpg' alt='4 звезды'>
+     <h1 class='visually-hidden'> Отели Седоны </h1>
+      <div class='hotels-list'>
+       <div class='hotels-list-item'>
+         <img src='img/Amara-photo-view.jpg' width='135px' height='90px' alt='Amara Resort&SPA'>
+          <div class='hotel-info'>
+           <a href='https://www.amara-resort.com/' class='Amara-website'>Amara Resort&SPA</a>
+            <span class='hotel-type'>Гостиница от 4000 Р.</span>
+             <button class='button' type='submit' name='Забронировать'>Подробнее</button>
+              <button class='button-brown' type='submit' name='Забронировать'>Забронировать</button>
+          </div>
+          <div class='hotel-rating'>
+            <span class='stars'>★★★★</span>
+            <span class='feedback-rating'> Рейтинг:8.5 </span>
+          </div>
 			 </div>
-      </li>
-     <li>Рейтинг:8.5</li>
-   </ul>
-   <ul class='Desert-discription'>
-    <li><img src='img/Desert-photo-view.jpg' width='135' height='90' alt='Desert Quail INN'> </li>
-    <li> <a href='https://www.DESERTINN.com/' class='Desert-website'> Desert Quail INN </a></li>
-    <li>Мотель от 3000 Р.</li>
-    <li><button class='info-button' type='submit' name='Подробнее'>Подробнее</button></li>
-    <li><button class='book-button' type='submit' name='Забронировать'>Забронировать</button></li>
-    <li>
-      <div class="three-stars">
-       <img src='img/star.jpg' alt='3 звезды'>
-      </div>
-    </li>
-    <li>Рейтинг:8.9</li>
-   </ul>
-   <ul class='Villas-discription'>
-    <li><img src='img/Villas-photo-view.jpg' width='135' height='90' alt='Villas at Poco Diablo'> </li>
-    <li> <a href='https://www.PocoDiablo.com/' class='Villas-website'>Villas at Poco Diablo </a></li>
-    <li> Аппартаменты от 2000 Р.</li>
-    <li><button class='info-button' type='submit' name='Подробнее'>Подробнее</button></li>
-    <li><button class='book-button' type='submit' name='Забронировать'>Забронировать</button></li>
-    <li>
-      <div class="two-stars">
-       <img src='img/star.jpg' alt='2 звезды'>
-      </div>
-    <li>Рейтинг:9.2</li>
-   </ul>
- </section>
+       <div class='hotels-list-item'>
+         <img src='img/Desert-photo-view.jpg' width='135px' height='90px' alt='Desert Quail INN'>
+          <div class='hotel-info'>
+           <a href='https://www.DESERTINN.com/' class='Desert-website'></a>
+            <span class='hotel-type'>Мотель от 3000 Р.</span>
+             <button class='button' type='submit' name='Забронировать'>Подробнее</button>
+              <button class='button-brown' type='submit' name='Забронировать'>Забронировать</button>
+          </div>
+          <div class='hotel-rating'>
+            <span class='stars'>★★★</span>
+            <span class='feedback-rating'> Рейтинг:8.9 </span>
+          </div>
+       </div>
+       <div class='hotels-list-item'>
+         <img src='img/Villas-photo-view.jpg' width='135px' height='90px' alt='Villas at Poco Diablo'>
+          <div class='hotel-info'>
+           <a href='https://www.PocoDiablo.com/' class='Villas-website'>Villas at Poco Diablo </a>
+            <span class='hotel-type'> Аппартаменты от 2000 Р.</span>
+             <button class='button' type='submit' name='Забронировать'>Подробнее</button>
+              <button class='button-brown' type='submit' name='Забронировать'>Забронировать</button>
+          </div>
+          <div class='hotel-rating'>
+            <span class='stars'>★★</span>
+            <span class='feedback-rating'> Рейтинг:9.2 </span>
+          </div>
+       </div>
+     </div>
+   </section>
   </main>
   <footer class='footer'>
     <section class='hashtag'>
@@ -86,11 +106,11 @@
        </li>
       <li>
         <a href='https://facebook.com/' class='social-networks-facebook'>
-          <img src='img/facebook-logo.svg' width='12' height='22' alt='Мы в Facebook'></a>
+          <img src='img/facebook-logo.svg' width='12px' height='22px' alt='Мы в Facebook'></a>
       </li>
       <li>
         <a href='https://youtube.com/' class='social-networks-youtube'>
-          <img src='img/youtube-logo.svg' width='20' height='16' alt='Мы на YouTube'></a>
+          <img src='img/youtube-logo.svg' width='20px' height='16px' alt='Мы на YouTube'></a>
       </li>
      </ul>
     </section>
