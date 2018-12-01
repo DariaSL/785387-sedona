@@ -19,25 +19,25 @@ a {
   color: #000000;
 }
 
-.main-navigation {
+.navigation {
   font-size: 14px;
   line-height: 26px;
   color: #000000;
   background-color: #ffffff;
 
 }
-.site-navigation{
+.navigation_list{
 list-style: none;
 }
 
-.site-navigation a {
+.navigation_list a {
   color: #000000;
 }
-.site-navigation a:hover,
-.site-navigation a:focus{
+.navigation_list a:hover,
+.navigation_list a:focus{
   color: #81b3d2
 }
-.site-navigation a:active {
+.navigation_list a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
