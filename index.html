@@ -33,9 +33,15 @@
   <main class='container'>
     <h1 class='visually-hidden'> Американский город Седона</h1>
      <section class='banner'>
-       <img src='img/background-sedona-main.jpg' width='1200px' height='800px' alt='Photo City of Sedona'>
+       <div class='banner-item-bg'>
+         <img src='img/background-sedona-main.jpg' width='1200px' height='800px' alt='Photo City of Sedona'>
+       </div>
+       <div class='banner-item-polygon'>
          <img src='img/polygon.svg' width='1200px' height='60px'>
-           <img src='img/welcome-sedona.svg' width='460px' height='355px' alt='Welcome to the gorgeous SEDONA Because the Grand Canyon sucks!'>
+       </div>
+       <div class='banner-item-welcome'>
+         <img src='img/welcome-sedona.svg' width='460px' height='355px' alt='Welcome to the gorgeous SEDONA Because the Grand Canyon sucks!'>
+       </div>
      </section>
      <section class='slogan'>
        <p class='discription'>Седона - небольшой городок в Аризоне, заслуживающий большего</p>
@@ -140,25 +146,29 @@
     </section>
   </main>
   <footer class='footer'>
-    <section class='hashtag'>
-     <p>#visitsedona</p>
-    </section>
-    <section class='social-networks'>
-     <ul class='social-networks-list'>
-      <li>
-        <a href='https://twitter.com/' class='social-networks-twitter'>
-          <img src='img/twitter-logo.svg' width='20px' height='16px' alt='Мы в Twitter'></a>
-      </li>
-      <li>
-        <a href='https://facebook.com/' class='social-networks-facebook'>
-          <img src='img/facebook-logo.svg' width='12px' height='22px' alt='Мы в Facebook'></a>
-      </li>
-      <li>
-        <a href='https://youtube.com/' class='social-networks-youtube'>
-          <img src='img/youtube-logo.svg' width='20px' height='16px' alt='Мы на YouTube'></a>
-      </li>
-     </ul>
-    </section>
+     <section class='hashtag'>
+      <p>#visitsedona</p>
+     </section>
+       <section class='social-networks'>
+        <div class='social-networks-item'>
+          <a href='https://twitter.com/' class='social-networks-twitter'>
+            <div class='image-wrap image-flex'>
+              <img src='img/twitter-logo.svg' class='logo-center' width='20px' height='16px' alt='Мы в Twitter'></a>
+            </div>
+        </div>
+        <div class='social-networks-item'>
+          <a href='https://facebook.com/' class='social-networks-facebook'>
+            <div class='image-wrap image-flex'>
+               <img src='img/facebook-logo.svg' class='logo-center' width='12px' height='22px' alt='Мы в Facebook'></a>
+            </div>
+        </div>
+        <div class='social-networks-item'>
+          <a href='https://youtube.com/' class='social-networks-youtube'>
+            <div class='image-wrap image-flex'>
+              <img src='img/youtube-logo.svg' class='logo-center' width='20px' height='16px' alt='Мы на YouTube'></a>
+            </div>
+        </div>
+     </section>
     <section class='creators'>
     <span> Website by </span>
      <a href='https://htmlacademy.ru/intensive/htmlcss' class="footer-logo">
@@ -167,23 +177,7 @@
       </svg>
     </a>
   </section>
+ </div>
 </footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-    <div class="wrap-btns">
-      <button class="btn">▲</button>
-      <button class="btn btn--brown">★★★★★★★</button>
-    </div>
-  </div>
-</section>

@@ -14,6 +14,23 @@ body {
   background-repeat: no-repeat;
 }
 
+.navigation-list{
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-header-logo{
+  width: 140px;
+  height: 71px;
+}
+
+h1.visually-hidden {
+  display: none;
+}
+
+
 a {
   text-decoration: none;
   color: #000000;
@@ -111,7 +128,11 @@ form.hotels-search {
   background-color: #ebebeb;
 }
 .container-item input:active {
-    background-color: #ffffff;
+  background-color: #ffffff;
+}
+.sorting,
+.hotels-description{
+  background-color: #ffffff;
 }
 
 
@@ -126,35 +147,61 @@ form.hotels-search {
   color: rgba(0, 0, 0, 0.3);
 }
 
+.stars{
+  color: #81b3d2;
+}
+.feedback-rating{
+  background-color: #f2f2f2;
+}
+
 .footer {
   color: #f2f2f2;
   background-color: #ffffff;
   background-position: 0 0;
   background-repeat: repeat;
+  padding: 36px 0;
+  margin-top: 73px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+
 .hashtag {
   font-size: 21px;
   line-height: 26px;
   font-weight: normal;
   color: #000000;
   text-transform: uppercase;
-}
-.social-networks-list{
-  list-style: none;
+  width: 51px;
 }
 
-.social-networks-list img {
-  list-style: none;
-  color: #81b3d2;
+.social-networks-item {
+  margin:auto;
+  width: 46px;
+  height: 48px;
   background-color: #81b3d2;
+}
+
+.social-networks-item img{
+  width: 17px;
+  height: 15px;
+  color: #ffffff;
   }
 
-.social-networks-list  a:hover,
-.social-networks-list a:focus {
+.image-flex {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.social-networks-item a:hover,
+.social-networks-item a:focus {
   background-color: #669ec0;
   text-decoration: none;
 }
-.social-networks-list  a:active {
+.social-networks-item a:active {
   background-color: #5496bd;
 }
 
@@ -162,13 +209,18 @@ form.hotels-search {
   font-size: 14px;
   line-height: 26px;
   color: #000000;
-  text-transform: none;
+  width: 200px;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
 }
 
 svg {
   width: 115px;
   height: 41px;
   background-color: #ffffff;
+  position: absolute;
+  align-items: center;
 }
 .footer-logo:hover svg path,
 .footer-logo:focus svg path {
