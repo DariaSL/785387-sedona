@@ -18,16 +18,16 @@
            <a href='photos.html' class='navigation-link'> Фото и видео </a>
         </div>
         <div class='navigation-item'>
-          <a href='index.html' class='main-header-logo'>
-            <img src='img/logo-sedona.svg' width='140px' height='71px' alt='Эмблема City of Sedona'></a>
-        </div>
-        <div class='navigation-item'>
           <a href='map.html' class='navigation-link'> Карта штата </a>
         </div>
         <div class='navigation-item'>
           <a href='hotels.html' class='navigation-link'> Гостиницы </a>
         </div>
-      </div>
+        <div class='navigation-item-logo'>
+          <a href='index.html' class='main-header-logo'>
+            <img src='img/logo-sedona.svg' width='140px' height='71px' alt='Эмблема City of Sedona'></a>
+       </div>
+     </div>
     </nav>
   </header>
   <main class='container'>
@@ -122,6 +122,11 @@
           <div class='container-item'>
            <label for='check-in'> Дата заезда </label>
             <input type='text' id='check-in' style='background-image: url(img/calendar.svg)' value='24 апреля 2017'>
+             <div class='wrapper-button-calendar'>
+               <button type='button-calendar' class='search-form-calendar'>
+                 <img src='img/calendar.svg' width='21px' height='22px' alt='calendar'>
+               </button>
+             </div>
           </div>
           <div class='container-item'>
            <label for='check-out'> Дата выезда</label>
@@ -149,26 +154,21 @@
      <section class='hashtag'>
       <p>#visitsedona</p>
      </section>
-      <div class='container'>
-       <section class='social-networks'>
-        <div class='social-networks-item'>
-          <a href='https://twitter.com/' class='social-networks-twitter'>
-            <div class='image-wrap image-flex'>
-              <img src='img/twitter-logo.svg' class='logo-center' width='20px' height='16px' alt='Мы в Twitter'></a>
-            </div>
-        </div>
-        <div class='social-networks-item'>
-          <a href='https://facebook.com/' class='social-networks-facebook'>
-            <div class='image-wrap image-flex'>
-               <img src='img/facebook-logo.svg' class='logo-center' width='12px' height='22px' alt='Мы в Facebook'></a>
-            </div>
-        </div>
-        <div class='social-networks-item'>
-          <a href='https://youtube.com/' class='social-networks-youtube'>
-            <div class='image-wrap image-flex'>
-              <img src='img/youtube-logo.svg' class='logo-center' width='20px' height='16px' alt='Мы на YouTube'></a>
-            </div>
-        </div>
+
+      <section class='social-networks'>
+       <div class='social-networks-item'>
+         <a href='https://twitter.com/' class='social-networks-twitter'>
+             <img src='img/twitter-logo.svg' class='logo-center' width='20px' height='16px' alt='Мы в Twitter'></a>
+       </div>
+       <div class='social-networks-item'>
+         <a href='https://facebook.com/' class='social-networks-facebook'>
+              <img src='img/facebook-logo.svg' class='logo-center' width='12px' height='22px' alt='Мы в Facebook'></a>
+       </div>
+       <div class='social-networks-item'>
+         <a href='https://youtube.com/' class='social-networks-youtube'>
+             <img src='img/youtube-logo.svg' class='logo-center' width='20px' height='16px' alt='Мы на YouTube'></a>
+       </div>
+  
      </section>
     </div>
     <section class='creators'>
